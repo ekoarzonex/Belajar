@@ -4,14 +4,57 @@
 <head>
    <meta charset="utf-8">
    <title>EKO ZIDA</title>
-</head>
+   <style> 
+        @import url('https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Roboto&family=Shadows+Into+Light&display=swap');
+       
+        h1{
+            font-family: 'Goblin One', cursive;
+            color : red ;
+            font-size: 45px;
+            background-color: cyan;
+            display: inline;
+            margin: 40px;
+            Padding: 10px}
+        li{
+            font-family: 'Shadows Into Light', cursive;
+            color: deeppink;
+            font-size: 35px;}
+        table{ 
+            font-family: 'Roboto', cursive;
+            color: rgb(118, 97, 236);}
+        label{ font-family:  'Shadows Into Light', cursive;
+            font-size: 30px;
+            color: seagreen;
+            }
+        textarea{ 
+            text-decoration: lawngreen;
+            box-sizing:content-box;
+        }
+        a { 
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(255, 255, 255);
+            background-color: darkslateblue;
+            display: inline-block;
+            margin: 5px;
+            padding: 1px;
+        }
+        :placeholder-shown { font-family:'Shadows Into Light', cursive;
+        color: rgb(255, 255, 255); 
+        background-color: rgb(0, 255, 64);
+        }
+        option { font-family:'Shadows Into Light', cursive;
+        color: mediumblue;
+        }
+        html {background-color: rgb(228, 235, 132);
+        background-image: src="https://cdn.statically.io/img/epsikologi.com//wp-content/uploads/2019/10/manfaat-ilmu-psikologi-cinta.jpg";}
+    </style>
+    <link href="style.css" rel="stylesheet">
+.</head>
 
 <body>
    
    <h1>SELAMAT DATANG DI KISAH CINTA KAMI</h1>
-  
-   <img src="https://cdn.statically.io/img/epsikologi.com//wp-content/uploads/2019/10/manfaat-ilmu-psikologi-cinta.jpg" alt="logo cinta"> <br>
-   <img src="img/donorchek.png" alt="logo hati"><br>
+     
    <div id="Header">
    <h3>saya adalah eko pambudi kurniawan.</h3>
    </div>
@@ -20,7 +63,7 @@
    </span>
    <br>
    
-    <table border="2">
+    <table border="3" style="color: rgb(232, 40, 250);">
         <tr>
             <td>No</td>
             <td>Nama</td>
@@ -35,23 +78,22 @@
 <br>
     <form>
     <ol>
-        <li>Nama pasangan :</li> <input type="text" placeholder="Masukan nama depan"> <input type="text" placeholder="Masukan nama belakang"> <br>
+        <li>Nama pasangan :</li> 
+        <input type="text" placeholder="Masukan nama depan"> 
+        <input type="text" placeholder="Masukan nama belakang"> <br>
         <br>
-        <label>
-        <li>Tempat bercinta :</li> <input type="text" placeholder="Masukan nama"> <br>
-        </label>
+        <li>Tempat bercinta :</li> 
+        <input type="text" placeholder="Masukan tempat"> <br>
+       
     <br>       
      <label>
          <li>kepuasan : </li>
-            <select>
+            <select >
                 <option>Puas Banget</option>
                 <option>Bias</option>
                 <option>Tidak Puas</option>
             </select> 
         </label> 
-        <br>
-        <br>
-        <br>
         <br>
     <br>
     <li> Keluar dimana : </li>
@@ -79,7 +121,7 @@
     <br>
     <li>SARAN & KRITIK </li><br>
         <label>
-        <textarea placeholder="masukan kritik"></textarea>
+        <textarea placeholder="masukan kritik", a"></textarea>
         </label>
         <br>
         <input type="submit" value="kirimkan data">
@@ -87,11 +129,10 @@
     </form>
         <br>
         <br>
-   <a href="https://www.google.com/" target="_blank">google</a> <br>
-   <a href="https://www.youtube.com/" target="_blank">youtube</a><br>
-   <br>
+   <a href="https://www.google.com/" target="_blank">google</a> <br> 
+   <a href="https://www.youtube.com/" target="_blank">youtube</a> <br>
    <a href="Ekopambudi078@gmail.com">Kirim email kepada pemilik</a> <br>
-   <a href="Sub1.html" target="_blank">NEXT STEP</a> <br>
+   <a href="Sub1.html" target="_blank">NEXT STEP</a> 
 
 </body>
 
