@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>EKO ZIDA</title>
+</head>
+
+<body>
+   
+   <h1>SELAMAT DATANG DI KISAH CINTA KAMI</h1>
+  
+   <img src="https://cdn.statically.io/img/epsikologi.com//wp-content/uploads/2019/10/manfaat-ilmu-psikologi-cinta.jpg" alt="logo cinta"> <br>
+   <img src="img/donorchek.png" alt="logo hati"><br>
+   <div id="Header">
+   <h3>saya adalah eko pambudi kurniawan.</h3>
+   </div>
+   <span class="Definisi">
+        <h3>Kami adalah 2 insan yang saling mencintai dan menyayangi satu sama lain, dengan penuh warna terang dan gelap karena untuk keseimbangan cinta kita.</h3>
+   </span>
+   <br>
+   
+    <table border="2">
+        <tr>
+            <td>No</td>
+            <td>Nama</td>
+            <td>Tanggal Lahir</td>
+        </tr>
+        <tr>
+            <td>1 </td> 
+            <td>EKO PAMBUDI KURNIAWAN </td>
+            <td>13 MARET 1996 </td>
+        </tr>
+    </table>
+<br>
+    <form>
+    <ol>
+        <li>Nama pasangan :</li> <input type="text" placeholder="Masukan nama depan"> <input type="text" placeholder="Masukan nama belakang"> <br>
+        <br>
+        <label>
+        <li>Tempat bercinta :</li> <input type="text" placeholder="Masukan nama"> <br>
+        </label>
+    <br>       
+     <label>
+         <li>kepuasan : </li>
+            <select>
+                <option>Puas Banget</option>
+                <option>Bias</option>
+                <option>Tidak Puas</option>
+            </select> 
+        </label> 
+        <br>
+        <br>
+        <br>
+        <br>
+    <br>
+    <li> Keluar dimana : </li>
+        <label>
+            <input type="checkbox"> di Muka            
+        </label>
+        <label>
+            <input type="checkbox"> di dalam memek
+        </label>
+        <label>
+            <input type="checkbox"> di luar memek
+        </label>
+
+    <li> pesan : </li>
+        <ul>
+            <li>jangan Menggunakan Kondol saat Bercinta</li>
+            <li>jangan ada paksaan sat bercinta</li>
+                <ol>
+                    <li>yaitu kekerasan</li>
+                    <li>pukulan</li>
+                </ol>
+            <li>jangan bermain anal sex</li>
+        </ul>
+    <br>
+    <br>
+    <li>SARAN & KRITIK </li><br>
+        <label>
+        <textarea placeholder="masukan kritik"></textarea>
+        </label>
+        <br>
+        <input type="submit" value="kirimkan data">
+    <ol>
+    </form>
+        <br>
+        <br>
+   <a href="https://www.google.com/" target="_blank">google</a> <br>
+   <a href="https://www.youtube.com/" target="_blank">youtube</a><br>
+   <br>
+   <a href="Ekopambudi078@gmail.com">Kirim email kepada pemilik</a> <br>
+   <a href="Sub1.html" target="_blank">NEXT STEP</a> <br>
+
+</body>
+
+</html>
